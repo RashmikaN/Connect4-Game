@@ -34,10 +34,6 @@ window = pygame.display.set_mode(size)
 pygame.display.set_caption("Connect 4 Game")
 font = pygame.font.SysFont("Comic Sans MS", 33, True)
 
-# Font settings
-pygame.font.init()
-font = pygame.font.SysFont("monospace", 24)
-
 # Function to get player names
 def get_input_text(prompt):
     input_box = pygame.Rect(50, height // 2, 200, 50)
